@@ -1,13 +1,13 @@
 ---
-title: "Interference reduction in music recordings combining Kernel Additive Modelling and Non-negative Matrix Factorization"
+title: "Coherent Diagrammatic Reasoning in Compositional Distributional Semantics"
 collection: publications
-permalink: /publication/2017-01-01-paper-title-number-1
-excerpt: 'In this paper we introduce machine learning in the KAM framework.'
+permalink: /publication/2017-10-01-paper-title-number-3
+excerpt: 'In this paper we develop a graphical language for reasoning about information flow in the Lambek Calculus.'
 type: published
-date: 2017-01-01
+date: 2017-10-01
 year: 2017
-venue: 'International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2017'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/7952116'
-citation: 'Delia Fano Yela, Sebastian Ewert, Derry FitzGerald, and Mark B. Sandler, âInterference reduction in music recordings combining kernel additive modelling and non-negative matrix factorization in Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017, pp. 51-55'
+venue: 'WoLLIC 2017'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-662-55386-2_27'
+citation: 'Wijnholds, G. J. (2017). &quot;Coherent Diagrammatic Reasoning in Compositional Distributional Semantics.&quot; <i>WoLLIC 2017, Lecture Notes in Computer Science</i>. 10388.'
 ---
-In this paper we introduce machine learning in the KAM framework.
+In this paper we develop a graphical language for reasoning about information flow in the Lambek Calculus.
