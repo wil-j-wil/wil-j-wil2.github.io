@@ -15,7 +15,7 @@ I taught the following modules as a teaching associate:
   <th class="venue" colspan="2">At Queen Mary University of London, United Kingdom</th>
 </tr>
 {% for post in site.teaching reversed %}
-  {% if post.role == "Lecturer" %}
+  {% if post.role == "Senior" %}
     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}

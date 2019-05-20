@@ -33,7 +33,8 @@ import os
 
 # In[3]:
 
-talks = pd.read_csv("teaching.tsv", sep="\t", header=0)
+#talks = pd.read_csv("teaching.tsv", sep="\t", header=0)
+talks = pd.read_csv("teaching.csv", header=0)
 talks
 
 
