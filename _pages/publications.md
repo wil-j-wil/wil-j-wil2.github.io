@@ -9,6 +9,17 @@ You can also find my articles on <a href="https://scholar.google.co.uk/citations
 
 {% include base_path %}
 
+2017
+------
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.year == 2017 and post.type == "published" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+
 Preprints
 ------
 <ul>
@@ -34,16 +45,6 @@ Preprints
 <ul>
 {% for post in site.publications reversed %}
   {% if post.year == 2018 and post.type == "published" %}
-    {% include archive-single-publication.html %}
-  {% endif %}
-{% endfor %}
-</ul>
-
-2017
-------
-<ul>
-{% for post in site.publications reversed %}
-  {% if post.year == 2017 and post.type == "published" %}
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
