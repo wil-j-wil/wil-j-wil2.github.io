@@ -1,0 +1,50 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  margin-bottom: 1em;
+  width: 80%;
+  font-family: $global-font-family;
+  font-size: $type-size-5;
+  border-collapse: collapse;
+  border: none; // 1px solid $light-gray;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+  background-color: $lighter-gray;
+  border-bottom: none // 1px solid $light-gray;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: none; // 1px solid $light-gray;
+  border-right: none; // 1px solid $light-gray;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: none; // 1px solid $light-gray;
+  border-right: none; // 1px solid $light-gray;
+}
+
+tr, td, th {
+  vertical-align: top;
+}
+
+th.year {
+  padding-left: 1em;
+  width: 15%;
+}
+
+th.venue {
+  column-span: all;
+  font-size: $type-size-45;
+  border-bottom: 1px solid $light-gray;
+}

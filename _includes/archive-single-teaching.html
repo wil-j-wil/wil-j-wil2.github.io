@@ -1,0 +1,51 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign module = post.module | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign module = post.module %}
+{% endif %}
+<tr>
+  <th class="year">
+    {% if post.year %}
+      {{ post.year }}
+    {% elsif post.years %}
+      {% for year in post.years reversed %}
+        {{ year }}<br>
+      {% endfor %}
+    {% endif %}
+    <br>
+  </th>
+  <td>
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    <i>{{ post.module }}</i> {% if post.type %}({{post.type}}){% endif %}
+    {% if post.description %}
+      <p class="teaching_desc">{{ post.description }}</p>
+    {% endif %}
+    <br>
+    <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %} -->
+  </article>
+</div>
+  </td>
+</tr>

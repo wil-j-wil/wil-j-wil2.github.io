@@ -1,0 +1,52 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% if post.type == "preprint" %}
+  {% assign pub = "preprint" %}
+{% elsif post.type == "abstract" %}
+  {% assign pub = "abstract" %}
+{% elsif post.type == "published" %}
+  {% assign pub = "paper" %}
+{% elsif post.type == "thesis" %}
+  {% assign pub = "thesis" %}
+{% endif %}
+
+<li>
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    {% if post.citation and post.paperurl and paper.bibtex %}
+      <p>{{ post.citation }} [<a href="{{ post.paperurl }}">{{ pub }}</a>] [<a href="{{ post.bibtex }}">bibtex</a>]</p>
+    {% elsif post.citation and post.paperurl %}
+      <p>{{ post.citation }} [<a href="{{ post.paperurl }}">{{ pub }}</a>]</p>
+    {% elsif post.citation %}
+      <p>{{ post.citation }} </p>
+    {% elsif post.paperurl %}
+      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% endif %}
+
+  </article>
+</div>
+</li>

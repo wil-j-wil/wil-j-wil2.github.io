@@ -1,0 +1,42 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<li>
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <p>
+      {% if post.date %} <i>{{ post.date | date: '%B %d, %Y' }}.</i>{% endif %}
+      {{post.citation}}
+      {% if post.venue %} {{post.type}} at <i>{{ post.venue }}</i>.  {{post.location}}. {% endif %}
+      {% if post.venue_url %}[<a href="{{ post.venue_url }}">venue</a>] {% endif %}
+      {% if post.talk_url %}[<a href="{{ post.talk_url }}">slides</a>] {% endif %}
+    </p>
+
+    <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}. </p>{% endif %} -->
+    <!-- {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %} -->
+    <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %} -->
+  </article>
+</div>
+</li>
