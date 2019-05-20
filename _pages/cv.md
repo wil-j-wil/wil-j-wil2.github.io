@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* PhD in Compositional Distributional Semantics, Queen Mary University of London, 2016-present
+<!-- * PhD in Compositional Distributional Semantics, Queen Mary University of London, 2016-present
 * MSc. in Logic. Institute for Logic, Language and Computation, University of Amsterdam, 2011-2014 (<i>cum laude</i>)
 * BSc. in Artificial Intelligence. Utrecht University, 2009-2011 (<i>cum laude</i>)
-* BSc. in Liberal Arts & Sciences. Utrecht University, 2008-2010 (unfinished)
+* BSc. in Liberal Arts & Sciences. Utrecht University, 2008-2010 (unfinished) -->
 
 <!-- Work experience
 ======
@@ -39,21 +39,21 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <!-- <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
+  <!-- <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed%}
+  <!-- <ul>{% for post in site.teaching reversed%}
     {% include archive-single-teaching-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 <!-- Service and leadership
 ======
