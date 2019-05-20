@@ -16,4 +16,4 @@ Before that, I received a masters degree in Electronic Systems (MEng) with major
 
 My bachelor's degree in Electrical Engineering was previously awarded by the <a href="https://www.insa-lyon.fr/">Institut National des Sciences Appliquees (INSA) Lyon</a>. In between finishing the masters and starting the PhD, I worked for a while as an R&D Engineer in Gentian Services, Ireland.
 
-I'm also the founder and organiser of the <a href="https://www.brownpapertickets.com/event/4193488"> Hands-on Source Separation Workshop (HOSSS)</a> series aiming to bring together experts and students in the field for a day of active brainstorming and hacking.
+I'm also the founder and organiser of the <a href="https://www.brownpapertickets.com/event/4193488"> Hands-on Sound Source Separation Workshop (HOSSS)</a> series aiming to bring together experts and students in the field for a day of active brainstorming and hacking.
