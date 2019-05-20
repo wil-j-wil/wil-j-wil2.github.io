@@ -1,5 +1,5 @@
 ---
-title: "Interference reduction in music recordings combining Kernel Additive Modelling and Non-negative Matrix Factorization"
+title: "Interference reduction in music recordings combining Kernel Additive Modelling and Non-negative Matrix Factorisation"
 collection: publications
 permalink: /publication/2017-10-01-paper-title-number-3
 excerpt: 'In this paper we develop a graphical language for reasoning about information flow in the Lambek Calculus.'
