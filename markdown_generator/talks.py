@@ -102,8 +102,8 @@ for row, item in talks.iterrows():
 
     md += "---\n"
 
-    if len(str(item.description)) > 3:
-        md += "\n" + html_escape(item.description) + "\n"
+    # if len(str(item.description)) > 3:
+    #     md += "\n" + html_escape(item.description) + "\n"
 
     md_filename = os.path.basename(md_filename)
 
