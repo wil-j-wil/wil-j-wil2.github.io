@@ -33,6 +33,3 @@ I worked (in varying capacity) as a teaching assistant for the modules below:
   {% endif %}
 {% endfor %}
 </table>
-
-<table>
-<tr>
