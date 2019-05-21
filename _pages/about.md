@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year PhD student in the Centre for Digital Music (C4DM) at Queen Mary University of London. Under the supervision of Mark Sandler and <a href="http://www.mcld.co.uk">Dan Stowell</a> (and previously Sebastian Ewert now in Spotify), I work on signal processing and graph theory methods for sound source separation and music analysis. I'm also interested in similarity and representation of music signals.
+I'm a last year PhD student in the Centre for Digital Music (C4DM) at Queen Mary University of London. Under the supervision of Mark Sandler and <a href="http://www.mcld.co.uk">Dan Stowell</a> (and previously Sebastian Ewert now in Spotify), I work on signal processing and graph theory methods for sound source separation and music analysis. I'm also interested in similarity and representation of music signals.
 
 Before starting the PhD in London, I received my masters degree in Music & Technology (MSc) from the <a href="https://csm.cit.ie/">Cork School of Music</a> and was awarded with the highest-placed taught masters in Music & Technology CSM prize in 2015. My thesis on noise reduction using sound source separation was supervised by Dr. Derry FitzGerald.
 
