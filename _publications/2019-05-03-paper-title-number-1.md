@@ -1,14 +1,13 @@
 ---
-title: "Visibility graphs for robust harmonic similarity measures between audio spectra
-"
+title: "Spectral Visibility Graphs:Application to Similarity of Harmonic Signals"
 collection: publications
 permalink: /publication/2019-05-03-paper-title-number-1
-excerpt: 'We propose to use a structural distance between two graphs as a novel harmonic-biased similarity measure.'
-type: preprint
+excerpt: 'We introduce the visibility graph for audio spectra and propose a novel representation for audio analysis: the spectral visibility graph degree.'
+type: published
 date: 2019-05-03
 year: 2019
-venue: 'arXiv'
+venue: 'European Signal Processing Conference (EUSIPCO) 2019'
 paperurl: 'https://arxiv.org/abs/1903.01976'
-citation: 'Delia Fano Yela, Dan Stowell and Mark B. Sandler, <i>Visibility graphs for robust harmonic similarity measures between audio spectra</i>, arXiv 2019, preprint arXiv:1903.01976.'
+citation: 'Delia Fano Yela, Dan Stowell and Mark B. Sandler, <i>Spectral Visibility Graphs:Application to Similarity of Harmonic Signals</i>, arXiv 2019, preprint arXiv:1903.01976.'
 ---
-We propose to use a structural distance between two graphs as a novel harmonic-biased similarity measure.
+We introduce the visibility graph for audio spectra and propose a novel representation for audio analysis: the spectral visibility graph degree.
