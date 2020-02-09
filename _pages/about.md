@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research scientist at <a href="https://chordify.net/">Chordify interested in recommender systems, graph theory and music information retrieval.
+I'm a research scientist at <a href="https://chordify.net/">Chordify</a> interested in recommender systems, graph theory and music information retrieval.
 
 I recently obtained my PhD in Computer Science from the Centre for Digital Music (C4DM) at Queen Mary University of London, where I worked on signal processing and graph theory methods for sound source separation and music analysis under the supervision of Prof. Mark Sandler and <a href="http://www.mcld.co.uk">Dr. Dan Stowell</a> (and previously Dr. Sebastian Ewert). I'm particularly interested in similarity and representations of music signals.
 
