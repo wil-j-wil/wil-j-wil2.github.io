@@ -83,11 +83,11 @@ analytics:
 author:
   name             : "Delia Fano Yela"
   avatar           : "profile.png"
-  bio              : "PhD student at Queen Mary University of London"
-  location         : "London, UK"
+  bio              : "Research Scientist"
+  location         : "Utrecht, NL"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=fUp2rucAAAAJ"
-  email            : "d.fanoyela@qmul.ac.uk"
+  email            : "delia@chordify.net"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
