@@ -8,6 +8,6 @@ date: 2019-05-03
 year: 2019
 venue: 'European Signal Processing Conference (EUSIPCO) 2019'
 paperurl: 'https://arxiv.org/abs/1903.01976v3'
-citation: 'Delia Fano Yela, Dan Stowell and Mark B. Sandler, <i>Spectral Visibility Graphs: Application to Similarity of Harmonic Signals</i>, accepted for the European Signal Processing Conference (EUSIPCO) 2019'
+citation: 'Delia Fano Yela, Dan Stowell and Mark B. Sandler, <i>Spectral Visibility Graphs: Application to Similarity of Harmonic Signals</i>, European Signal Processing Conference (EUSIPCO) 2019'
 ---
 We introduce the visibility graph for audio spectra and propose a novel representation for audio analysis: the spectral visibility graph degree.
