@@ -3,7 +3,7 @@ title: "Online visibility graphs: Encoding visibility in a binary search tree"
 collection: publications
 permalink: /publication/2020-04-23-paper-title-number-2
 excerpt: 'Here we present a highly efficient method to compute visibility graphs, which allows, for the first time, on-line computation.'
-type: preprint
+type: published
 date: 2020-04-23
 year: 2020
 venue: 'American Physical Society'
