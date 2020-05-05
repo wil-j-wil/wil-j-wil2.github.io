@@ -14,7 +14,7 @@ You can also find my articles on <a href="https://scholar.google.co.uk/citations
 ------
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.year == 2019 and post.type == "published" %}
+  {% if post.year == 2020 and post.type == "published" %}
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
