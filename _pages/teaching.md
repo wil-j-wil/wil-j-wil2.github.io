@@ -44,3 +44,16 @@ Head Teaching Associate (responsible for all lab teaching and coursework content
   {% endif %}
 {% endfor %}
 </table>
+
+Teaching Associate:
+------
+<table>
+<tr>
+  <th class="venue" colspan="2">At Queen Mary University of London, United Kingdom</th>
+</tr>
+{% for post in site.teaching reversed %}
+  {% if post.role == "Teaching Associate" and post.venue == "Queen Mary University of London" %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+</table>
