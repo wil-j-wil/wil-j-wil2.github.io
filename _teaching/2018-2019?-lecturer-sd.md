@@ -8,5 +8,6 @@ years:
 programme: "Electronic Engineering"
 type: "Undergraduate"
 permalink: /teaching/2018-2019-lecturer-sd
+description: Substitute / guest lecturer for 5 hours of teaching.
 ---
 
