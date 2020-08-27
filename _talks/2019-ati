@@ -7,6 +7,5 @@ venue: "The Alan Turing Institute"
 date: 2019-11-11
 year: 2019
 location: "London, UK"
-talk_url: "/files/gp-sig-slides.pdf"
 citation: '<b>Modelling and Inference in Temporal Gaussian Processes</b>.'
 ---
