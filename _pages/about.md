@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in Machine Learning at Aalto University, Finland, working in [Arno Solin](https://users.aalto.fi/~asolin/)'s group.
+I am a postdoctoral researcher in machine learning at Aalto University, Finland, working in [Arno Solin](https://users.aalto.fi/~asolin/)'s group.
 
 I am also a Visiting Turing Fellow at [The Alan Turing Institute](https://www.turing.ac.uk/), London.
 
