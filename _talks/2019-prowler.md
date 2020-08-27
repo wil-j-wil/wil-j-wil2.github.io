@@ -8,5 +8,5 @@ date: 2019-11-13
 year: 2019
 location: "Cambridge, UK"
 talk_url: "/files/gp-sig-slides.pdf"
-citation: '<b>Modelling and Inference in Temporal Gaussian Processes</b>.'
+citation: '<b>Models and Inference in Temporal Gaussian Processes</b>.'
 ---
