@@ -14,4 +14,4 @@ I am also a Visiting Turing Fellow at [The Alan Turing Institute](https://www.tu
 
 I received my PhD in Computer Science from Queen Mary University of London in 2019, under the supervision of [Dan Stowell](http://www.mcld.co.uk/) and [Joshua Reiss](http://www.eecs.qmul.ac.uk/~josh/).
 
-My main research interests lie at the intersection of machine learning and signal processing, with a focus on statistical inference for temporal and spatio-temporal data using Gaussian processes.
+My main research interests lie at the intersection of machine learning and signal processing, with a focus on statistical inference for spatio-temporal data using Gaussian processes.
