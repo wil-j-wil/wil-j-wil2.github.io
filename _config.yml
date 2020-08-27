@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Delia Fano Yela"
+title                    : "William Wilkinson"
 title_separator          : "-"
-name                     : &name "Delia Fano Yela"
-description              : &description "Research scientist"
-url                      : https://delialia.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "William Wilkinson"
+description              : &description "Postdoctoral researcher in machine learning"
+url                      : https://wil-j-wil.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "delialia/delialia.github.io"
+repository               : "wil-j-wil/wil-j-wil.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,13 +81,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Delia Fano Yela"
+  name             : "William Wilkinson"
   avatar           : "profile.png"
-  bio              : "Research Scientist"
-  location         : "Utrecht, NL"
+  bio              : "Postdoctoral researcher in machine learning"
+  location         : "Helsinki, FI"
   employer         :
-  googlescholar    : "https://scholar.google.co.uk/citations?user=fUp2rucAAAAJ"
-  email            : "delia@chordify.net"
+  googlescholar    : "https://scholar.google.com/citations?user=od6BFu4AAAAJ"
+  email            : "william.wilkinson@aalto.fi"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,19 +96,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "delialia"
+  github           : "wil-j-wil"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/delia-fano-yela"
-  orcid            : "http://orcid.org/0000-0001-7999-3241"
+  linkedin         : 
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          : "wil_j_wil"
   vine             :
   weibo            :
   xing             :
