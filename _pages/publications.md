@@ -60,3 +60,6 @@ author_profile: true
   {% endif %}
 {% endfor %}
 </ul>
+
+PhD thesis
+------
