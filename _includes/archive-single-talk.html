@@ -32,6 +32,7 @@
       {% if post.venue %} {{post.type}} at <i>{{ post.venue }}</i>.  {{post.location}}. {% endif %}
       {% if post.venue_url %}[<a href="{{ post.venue_url }}">venue</a>] {% endif %}
       {% if post.talk_url %}[<a href="{{ post.talk_url }}">slides</a>] {% endif %}
+      {% if post.video_url %}[<a href="{{ post.video_url }}">video</a>] {% endif %}
     </p>
 
     <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}. </p>{% endif %} -->
