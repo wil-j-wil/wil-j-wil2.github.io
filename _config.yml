@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "William Wilkinson"
-  avatar           : "/images/profile.jpg"
+  avatar           : "profile.jpg"
   bio              : "Postdoctoral researcher in machine learning"
   location         : "Helsinki, FI || London, UK"
   employer         :
