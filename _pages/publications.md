@@ -50,3 +50,13 @@ You can also find my articles on <a href="https://scholar.google.co.uk/citations
   {% endif %}
 {% endfor %}
 </ul>
+
+2016
+------
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.year == 2016 and post.type == "published" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+</ul>
