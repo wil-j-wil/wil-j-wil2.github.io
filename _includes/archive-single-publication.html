@@ -39,6 +39,8 @@
 
     {% if post.citation and post.paperurl and paper.bibtex %}
       <p>{{ post.citation }} [<a href="{{ post.paperurl }}">{{ pub }}</a>] [<a href="{{ post.bibtex }}">bibtex</a>]</p>
+    {% elsif post.citation and post.paperurl and post.codeurl %}
+      <p>{{ post.citation }} [<a href="{{ post.paperurl }}">{{ pub }}</a>][<a href="{{ post.codeurl }}">{{ code }}</a>]</p>
     {% elsif post.citation and post.paperurl %}
       <p>{{ post.citation }} [<a href="{{ post.paperurl }}">{{ pub }}</a>]</p>
     {% elsif post.citation %}
