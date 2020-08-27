@@ -64,7 +64,9 @@ author_profile: true
 PhD thesis
 ------
 <ul>
-{% for post in site.thesis reversed %}
-  {% include archive-single-publication.html %}
+{% for post in site.publications reversed %}
+  {% if post.type == "thesis" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
 {% endfor %}
 </ul>
