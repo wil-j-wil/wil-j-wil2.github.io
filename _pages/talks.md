@@ -11,7 +11,7 @@ author_profile: true
 
 {% endif %}
 
-2020 - coming up!
+2020
 ------
 <ul>
 {% for post in site.talks reversed %}
