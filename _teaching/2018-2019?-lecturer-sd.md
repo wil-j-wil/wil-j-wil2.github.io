@@ -1,12 +1,12 @@
 ---
 module: "Sound Design"
 collection: teaching
-role: "Teaching Assistant"
+role: "Lecturer"
 venue: "Queen Mary University of London"
 years:
- - "2016-2019"
+ - "2018-2019"
 programme: "Electronic Engineering"
 type: "Undergraduate"
-permalink: /teaching/2015-2018-ta-1
+permalink: /teaching/2018-2019-lecturer-sd
 ---
 
