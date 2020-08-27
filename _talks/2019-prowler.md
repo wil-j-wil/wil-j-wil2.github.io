@@ -2,7 +2,7 @@
 title: "Modelling and Inference in Temporal Gaussian Processes"
 collection: talks
 type: "Seminar"
-permalink: /talks/2019-talk-1
+permalink: /talks/2019-prowler
 venue: "Prowler.io"
 date: 2019-11-13
 year: 2019
