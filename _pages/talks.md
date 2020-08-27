@@ -35,7 +35,7 @@ author_profile: true
 ------
 <ul>
 {% for post in site.talks reversed %}
-  {% if post.year == 2019 %}
+  {% if post.year == 2018 %}
     {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
