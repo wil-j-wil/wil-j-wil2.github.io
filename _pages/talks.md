@@ -30,23 +30,3 @@ author_profile: true
   {% endif %}
 {% endfor %}
 </ul>
-
-2018
-------
-<ul>
-{% for post in site.talks reversed %}
-  {% if post.year == 2018 %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
-</ul>
-
-2017
-------
-<ul>
-{% for post in site.talks reversed %}
-  {% if post.year == 2017 %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
-</ul>
