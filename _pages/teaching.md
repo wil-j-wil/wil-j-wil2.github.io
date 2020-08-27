@@ -25,10 +25,10 @@ Head Teaching Associate (responsible for all lab teaching and coursework content
 ------
 <table>
 <tr>
-  <th class="venue" colspan="2">At Queen Mary University of London, United Kingdom</th>
+  <th class="venue" colspan="2">At Aalto University, Finland</th>
 </tr>
 {% for post in site.teaching reversed %}
-  {% if post.role == "Teaching Assistant" and post.venue == "Queen Mary University of London" %}
+  {% if post.role == "Teaching Assistant" and post.venue == "Aalto University" %}
     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}
@@ -36,7 +36,7 @@ Head Teaching Associate (responsible for all lab teaching and coursework content
 
 <table>
 <tr>
-  <th class="venue" colspan="2">At Aalto University, Finland</th>
+  <th class="venue" colspan="2">At Queen Mary University of London, United Kingdom</th>
 </tr>
 {% for post in site.teaching reversed %}
   {% if post.role == "Teaching Assistant" and post.venue == "Queen Mary University of London" %}
