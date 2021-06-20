@@ -11,6 +11,16 @@ author_profile: true
 
 {% endif %}
 
+2021
+------
+<ul>
+{% for post in site.talks reversed %}
+  {% if post.year == 2021 %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
 2020
 ------
 <ul>
